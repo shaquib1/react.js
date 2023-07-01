@@ -25,8 +25,8 @@ function PropsInFnCom(props) {
     console.log(props);
 
     return (
-        <div style={{ backgroundColor: "skyblue", margin: 20 }}>
-            <h1>hello props</h1>
+        <div style={{ backgroundColor: "skyblue", }}>
+            <h1>Props in functional component</h1>
             <h2>Name is : {props.name}</h2>
             <h2>Email is: {props.email}</h2>
             <h3>obj is {props.obj.address}</h3>
