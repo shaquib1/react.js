@@ -2,12 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+
+import Test from './Test'
+import ClickEvent from './Components/ClickEvent'
+import StateInFnCom from './Components/StateInFnCom';
+import StateInClassCom from './Components/StateInClassCom';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Test />
+    <ClickEvent />
+    <StateInFnCom />
+    <StateInClassCom />
   </React.StrictMode>
 );
 

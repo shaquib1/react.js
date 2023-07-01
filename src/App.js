@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
 
+import Classcomponent from './Classcomponent';
+
+
 function App() {
+
+
+  //we can make a componet inside a componet for example
+
+  function Tap(){
+    return(
+      <div>
+        <h1>component inside component</h1>
+      </div>
+    )
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+       <h1>hello react</h1>
+       <Classcomponent />
+       <Tap />   
+       {Tap()}
+      
     </div>
   );
 }
