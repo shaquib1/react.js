@@ -10,6 +10,8 @@ import StateInClassCom from './Components/StateInClassCom';
 import PropsInFnCom from './Components/PropsInFnCom';
 import PropsInClassCom from './Components/PropsInClassCom'
 import GetInputBoxValue from './Components/GetInputBoxValue'
+import HideShowTogge from './Components/Hide_Show_&_Toggle';
+import HandleForm from './Components/Handle_Form_&_Checkbox';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -27,6 +29,11 @@ root.render(
     <PropsInClassCom  name={"shaquib"} email="shaquib2615@gmail.com" />
 
     <GetInputBoxValue />
+
+    <HideShowTogge />
+
+    <HandleForm />
+
   </React.StrictMode>
 );
 
