@@ -8,7 +8,7 @@ import ClickEvent from './Components/ClickEvent'
 import StateInFnCom from './Components/StateInFnCom';
 import StateInClassCom from './Components/StateInClassCom';
 import PropsInFnCom from './Components/PropsInFnCom';
-
+import PropsInClassCom from './Components/PropsInClassCom'
 
 import reportWebVitals from './reportWebVitals';
 
@@ -22,6 +22,8 @@ root.render(
     <StateInClassCom />
 
     <PropsInFnCom  name={"shaquib"} email="shaquib2615@gmail.com"  obj={{address:"bihar",code:"344"}}/>   
+
+    <PropsInClassCom  name={"shaquib"} email="shaquib2615@gmail.com" />
   </React.StrictMode>
 );
 

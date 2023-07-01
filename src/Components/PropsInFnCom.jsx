@@ -1,6 +1,8 @@
-// file means props in functional component
+// file-name means props in functional component
 
 // we can also change a props with the help of useState in functional component
+// *note this code wite in parent component in which from we send props to another component 
+// so we write this code in index.js   [alwaya remember this point this is also apply in class component]
 
 /*function App() {
     const [name,setName]=useState("Anil")
