@@ -32,7 +32,7 @@ import React from "react";
 
 class PropsInClassCom extends React.Component {
    
-   c
+   
 
     render() {
 
