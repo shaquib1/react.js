@@ -12,7 +12,7 @@ function Condition() {
 
     return (
 
-        <div>
+        <div className="App">
             <h1>redering element</h1>
             {loggedIn == 1 ? <h4>logged in1</h4>
                 : loggedIn == 2 ? <h4>login2</h4>
