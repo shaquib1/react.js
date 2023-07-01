@@ -1,16 +1,16 @@
 
 
-function ClickEvent(){
+function ClickEvent() {
 
-//variable 
-let name="shaquib";
+    //variable 
+    let name = "shaquib";
 
     //event function
-    function event(){
+    function event() {
         alert("event click");
     }
 
-    return(
+    return (
 
         <div>
             <h1>this is click event and functon component </h1>

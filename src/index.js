@@ -7,6 +7,9 @@ import FunComponent from './FunComponent'
 import ClickEvent from './Components/ClickEvent'
 import StateInFnCom from './Components/StateInFnCom';
 import StateInClassCom from './Components/StateInClassCom';
+import PropsInFnCom from './Components/PropsInFnCom';
+
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +20,8 @@ root.render(
     <ClickEvent />
     <StateInFnCom />
     <StateInClassCom />
+
+    <PropsInFnCom  name={"shaquib"} email="shaquib2615@gmail.com"  obj={{address:"bihar",code:"344"}}/>   
   </React.StrictMode>
 );
 

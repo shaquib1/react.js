@@ -1,29 +1,29 @@
 import React from "react";
 
 
-class StateInClassCom extends React.Component{
+class StateInClassCom extends React.Component {
 
-  constructor(){
+  constructor() {
     super();
-    this.state={
-        data:"shaquib"
+    this.state = {
+      data: "shaquib"
     }
   }
 
-  updatedata(){
-    this.setState({data:"Alam"})
+  updatedata() {
+    this.setState({ data: "Alam" })
   }
-render(){
-    return(
+  render() {
+    return (
 
-        <div>
-            <h1>state in class component</h1>
-            <h1>here shaquib change into {this.state.data}</h1>
-            <button onClick={()=>this.updatedata()}>click here</button>
-        </div>
+      <div>
+        <h1>state in class component</h1>
+        <h1>here shaquib change into {this.state.data}</h1>
+        <button onClick={() => this.updatedata()}>click here</button>
+      </div>
     )
 
-}
+  }
 
 }
 
