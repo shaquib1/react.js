@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 
-import Test from './Test'
+import FunComponent from './FunComponent'
 import ClickEvent from './Components/ClickEvent'
 import StateInFnCom from './Components/StateInFnCom';
 import StateInClassCom from './Components/StateInClassCom';
@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <Test />
+    <FunComponent />
     <ClickEvent />
     <StateInFnCom />
     <StateInClassCom />
