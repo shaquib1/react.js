@@ -10,7 +10,6 @@ function Condition() {
 
     // check for 1, 2 , and 3
 
-
     return (
 
         <div>
