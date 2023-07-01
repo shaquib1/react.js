@@ -1,21 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
 
-import FunComponent from './FunComponent'
-import ClickEvent from './Components/ClickEvent'
-import StateInFnCom from './Components/StateInFnCom';
-import StateInClassCom from './Components/StateInClassCom';
-import PropsInFnCom from './Components/PropsInFnCom';
-import PropsInClassCom from './Components/PropsInClassCom'
-import GetInputBoxValue from './Components/GetInputBoxValue'
-import HideShowTogge from './Components/Hide_Show_&_Toggle';
-import HandleForm from './Components/Handle_Form_&_Checkbox';
+import FunComponent from "./FunComponent";
+import ClickEvent from "./Components/ClickEvent";
+import StateInFnCom from "./Components/StateInFnCom";
+import StateInClassCom from "./Components/StateInClassCom";
+import PropsInFnCom from "./Components/PropsInFnCom";
+import PropsInClassCom from "./Components/PropsInClassCom";
+import GetInputBoxValue from "./Components/GetInputBoxValue";
+import HideShowTogge from "./Components/Hide_Show_&_Toggle";
+import HandleForm from "./Components/Handle_Form_&_Checkbox";
+import Condition from "./Components/CondiitonRendering";
 
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
@@ -24,9 +25,13 @@ root.render(
     <StateInFnCom />
     <StateInClassCom />
 
-    <PropsInFnCom  name={"shaquib"} email="shaquib2615@gmail.com"  obj={{address:"bihar",code:"344"}}/>   
+    <PropsInFnCom
+      name={"shaquib"}
+      email="shaquib2615@gmail.com"
+      obj={{ address: "bihar", code: "344" }}
+    />
 
-    <PropsInClassCom  name={"shaquib"} email="shaquib2615@gmail.com" />
+    <PropsInClassCom name={"shaquib"} email="shaquib2615@gmail.com" />
 
     <GetInputBoxValue />
 
@@ -34,6 +39,7 @@ root.render(
 
     <HandleForm />
 
+    <Condition />
   </React.StrictMode>
 );
 

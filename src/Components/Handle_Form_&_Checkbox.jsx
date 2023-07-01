@@ -26,7 +26,7 @@ function HandleForm() {
                 <input type="checkbox" onChange={(e) => setTnc(e.target.checked)} /><span>Accept Terms and conditions</span>
                 <br /><br />
                 <button type="submit">Submit</button>
-                <button>Clear</button>
+                <button type="reset">Clear</button>
 
             </form>
         </div>
