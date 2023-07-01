@@ -13,6 +13,8 @@ import GetInputBoxValue from "./Components/GetInputBoxValue";
 import HideShowTogge from "./Components/Hide_Show_&_Toggle";
 import HandleForm from "./Components/Handle_Form_&_Checkbox";
 import Condition from "./Components/CondiitonRendering";
+import FormValidation from "./Components/FormValidation";
+
 
 import reportWebVitals from "./reportWebVitals";
 
@@ -40,6 +42,8 @@ root.render(
     <HandleForm />
 
     <Condition />
+
+    <FormValidation />
   </React.StrictMode>
 );
 
