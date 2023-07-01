@@ -1,4 +1,4 @@
-// In this component we learn how to get input box value means when we give input value how to get it ok
+// In this component we learn how to get input box value means when we give input value how to get it 
 
 import React, { useState } from "react";
 
