@@ -1,5 +1,5 @@
 
-//you can run react app with your name such as npm run shauqib for this app you run this app with the command is npm run shaquin
+//you can run react app with your name such as npm run shauqib for this app you run this app with the command is npm run shaquib
 
 import React from "react";
 import ReactDOM from "react-dom/client";
@@ -18,6 +18,7 @@ import HandleForm from "./Components/Handle_Form_&_Checkbox";
 import Condition from "./Components/CondiitonRendering";
 import FormValidation from "./Components/FormValidation";
 import ReactRouter from "./Components/ReactRouter";
+
 
 import reportWebVitals from "./reportWebVitals";
 
@@ -51,7 +52,8 @@ root.render(
     {/*after this some ramdom topics are implemented so rearrage after this  */}
 
 
-    <ReactRouter />
+   
+  
 
 
   </React.StrictMode>

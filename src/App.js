@@ -3,6 +3,11 @@ import "./App.css";
 import Classcomponent from "./Classcomponent";
 import PropsFunction from "./Components/Function_as_props";
 
+//import reactrouter
+import ReactRouter from "./Components/ReactRouter";
+
+import {
+  BrowserRouter , Route ,Routes} from "react-router-dom";
 function App() {
   //we can make a componet inside a componet for example
 
@@ -24,6 +29,15 @@ function App() {
       <Classcomponent />
       <Tap />
       {Tap()}
+
+
+{/*  use of react router*/}
+      <BrowserRouter>
+   <Routes>
+   <Route  path="/ReactRouter"  element={<ReactRouter/>}  />
+   </Routes>
+   
+   </BrowserRouter>
       <PropsFunction data={test} />
     </div>
   );
