@@ -3,11 +3,9 @@ import "./App.css";
 import Classcomponent from "./Classcomponent";
 import PropsFunction from "./Components/Function_as_props";
 
-//import reactrouter
-import ReactRouter from "./Components/ReactRouter";
 
-import {
-  BrowserRouter , Route ,Routes} from "react-router-dom";
+
+
 function App() {
   //we can make a componet inside a componet for example
 
@@ -19,10 +17,11 @@ function App() {
     );
   }
 
-  //make a function for props as a function for file funtion as a props
-  function test(){
-    alert("all correct function as a props")
+  //make a function for pass props as a function for file funtion as a props
+  function test() {
+    alert("all correct function as a props");
   }
+
   return (
     <div className="App">
       <h1>hello react</h1>
@@ -30,14 +29,7 @@ function App() {
       <Tap />
       {Tap()}
 
-
-{/*  use of react router*/}
-      <BrowserRouter>
-   <Routes>
-   <Route  path="/ReactRouter"  element={<ReactRouter/>}  />
-   </Routes>
    
-   </BrowserRouter>
       <PropsFunction data={test} />
     </div>
   );

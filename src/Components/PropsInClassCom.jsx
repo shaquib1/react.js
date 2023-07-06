@@ -51,4 +51,4 @@ export default PropsInClassCom;
 
 
 // it is this file code when we want to change props  write this same in props in functional componetn
-// and above code is parent componet code be care full
+// and above code is parent component code be care full

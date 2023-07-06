@@ -1,4 +1,3 @@
-
 //you can run react app with your name such as npm run shauqib for this app you run this app with the command is npm run shaquib
 
 import React from "react";
@@ -17,8 +16,6 @@ import HideShowTogge from "./Components/Hide_Show_&_Toggle";
 import HandleForm from "./Components/Handle_Form_&_Checkbox";
 import Condition from "./Components/CondiitonRendering";
 import FormValidation from "./Components/FormValidation";
-import App2 from "./App2";
-
 
 import reportWebVitals from "./reportWebVitals";
 
@@ -50,12 +47,6 @@ root.render(
     <FormValidation />
 
     {/*after this some ramdom topics are implemented so rearrage after this  */}
-
-
-   <App2 />
-  
-<App2 />
-
   </React.StrictMode>
 );
 

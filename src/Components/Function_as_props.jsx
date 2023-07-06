@@ -6,12 +6,12 @@
 
 function PropsFunction(props) {
 
-    return (
-        <div style={{ backgroundColor: "skyblue" }}>
-            <h1> funtion as a props </h1>
-            <button onClick={props.data}>click here </button>     this is output of function as a props component
-        </div>
+    return (<div style={{ backgroundColor: "skyblue" }}>
+        <h1> funtion as a props </h1>
+        <button onClick={props.data}>click here </button>     this is output of function as a props component
+    </div>
     )
+
 }
 
 
