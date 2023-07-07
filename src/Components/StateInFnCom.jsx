@@ -9,7 +9,7 @@ function StateInFnCom() {
 
     function updatedata() {
 
-        setData("Areesha");
+        setData("Alam");
     }
     return (
 

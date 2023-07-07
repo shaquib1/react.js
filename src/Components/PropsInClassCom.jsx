@@ -36,7 +36,7 @@ class PropsInClassCom extends React.Component {
 
     render() {
 
-        console.log(this.props);
+      //  console.log(this.props);
         return (
             <div style={{backgroundColor:"skyblue"}}>
                 <h1>props in class component</h1>

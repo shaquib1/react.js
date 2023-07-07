@@ -3,9 +3,6 @@ import "./App.css";
 import Classcomponent from "./Classcomponent";
 import PropsFunction from "./Components/Function_as_props";
 
-
-
-
 function App() {
   //we can make a componet inside a componet for example
 
@@ -29,7 +26,6 @@ function App() {
       <Tap />
       {Tap()}
 
-   
       <PropsFunction data={test} />
     </div>
   );

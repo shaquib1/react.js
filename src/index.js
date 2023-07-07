@@ -18,6 +18,10 @@ import Condition from "./Components/CondiitonRendering";
 import FormValidation from "./Components/FormValidation";
 
 import reportWebVitals from "./reportWebVitals";
+import LifeCycleMethod from "./Components/LifeCycleMethod";
+import Constructor1stLifeCycleMethod from "./Components/Constructor1stLifeCycleMethod";
+import RenderLifeCycleMethod from "./Components/RenderLifeCycleMethod";
+import ComponentDidMountMethod from "./Components/ComponentDidMountMethod";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -46,8 +50,15 @@ root.render(
 
     <FormValidation />
 
-    {/*after this some ramdom topics are implemented so rearrage after this  */}
-  </React.StrictMode>
+    <LifeCycleMethod />
+
+    <Constructor1stLifeCycleMethod />
+
+    <RenderLifeCycleMethod />
+
+    <ComponentDidMountMethod />
+    
+      </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

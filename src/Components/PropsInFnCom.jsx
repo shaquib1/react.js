@@ -22,7 +22,7 @@
 
 function PropsInFnCom(props) {
 
-    console.log(props);
+   // console.log(props);
 
     return (
         <div style={{ backgroundColor: "skyblue", }}>
